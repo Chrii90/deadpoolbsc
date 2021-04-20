@@ -19,7 +19,9 @@ section {
 body { 
   position: relative; /* we need this for the scrollspy */ 
   font-size: 14px;
+
 }
+
 
 a { color: #3CC; }
 
@@ -147,7 +149,8 @@ a:hover { color: #FF0; }
   padding-top: 30vh;
   text-align: center;
   background-image: url(../img/2.gif);
-}
+  
+  }
 
 .baner-content h1 {
   margin-top: 0px;
@@ -368,7 +371,7 @@ section {
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 16vh;
-  background-image: url(../img/1.gif);
+  background-image: url(../img/9.gif);
   background-image: contain;
 }
 
@@ -754,4 +757,11 @@ body.lb-disable-scrolling {
   cursor: pointer;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
   opacity: 1;
+}
+
+.preloader {
+background-image: url(img/9.gif);
+background-position: center;
+background-repeat: no-repeat;
+background-size: 60px;
 }
